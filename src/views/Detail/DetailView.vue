@@ -1,7 +1,6 @@
 <template>
   <div class="about">
     <h1>This is an Details page</h1>
-    <br />
     <button>Click me</button>
   </div>
 </template>
@@ -10,10 +9,7 @@
 @media (min-width: 1024px) {
   .about {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center align children horizontally */
-    justify-content: center; /* Center align children vertically if needed */
-    height: 100vh; /* Full height container */
+    flex-direction: column;
   }
 }
 
