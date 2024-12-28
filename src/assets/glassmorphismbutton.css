@@ -1,0 +1,28 @@
+button {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Light border for glass effect */
+  backdrop-filter: blur(10px); /* Frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
+  border-radius: 12px; /* Rounded corners */
+  padding: 10px 20px; /* Spacing inside the button */
+  color: rgb(74, 63, 63); /* Text color */
+  font-size: 16px; /* Text size */
+  font-weight: bold; /* Make the text bold */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s; /* Smooth hover effect */
+}
+
+/* Hover effect */
+button:hover {
+  transform: translateY(-2px); /* Slight upward movement */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+/* Active effect */
+button:active {
+  transform: translateY(0); /* Reset transform */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Original shadow */
+}

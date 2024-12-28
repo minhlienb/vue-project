@@ -18,12 +18,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/detail',
-      name: 'lmao',
+      path: '/details',
+      name: 'details',
       component: () => import('../views/Detail/DetailView.vue'),
-      meta: {
-        style: 'src/views/Detail/DetailView.css', // Define the style path here
-      },
     },
   ],
 })
